@@ -6,14 +6,17 @@ This is an app to take notes with persisting data files.
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Features](#features)
-- [How To Contribute](#how-to-contribute)
-- [Tests](#tests)
-- [Questions](#questions)
+- [Notes App](#notes-app)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Features](#features)
+  - [How to Contribute](#how-to-contribute)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
 ## Installation
 
@@ -25,15 +28,13 @@ Take notes that will save as files on your computer
 
 ## Credits
 
-
+Gitignore: https://gist.github.com/lohenyumnam/2b127b9c3d1435dc12a33613c44e6308
 
 ## License
 
 This project is under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
 
 ## Features
-
-
 
 ## How to Contribute
 
