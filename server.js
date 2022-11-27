@@ -1,13 +1,19 @@
 const express = require("express");
+const routes = require("./routes");
 
-const app = express();
 const PORT = 3001;
 
-app.get("/", (req, res) => res.json(`GET route`));
-app.post("/", (req, res) => res.json(`POST route`));
-app.delete("/:id", (req, res) => res.json(`DELETE route`));
+const app = express();
 
-app.listen(PORT, () => console.log(`Listening for requests on port ${PORT}!`));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.use(express.static("public"));
+app.use(routes);
+
+app.listen(PORT, () =>
+  console.log(`App listening at http://localhost:${PORT}`)
+);
 
 //TODO: make a routes folder with an HTML and Notes section -- these know how to connect with each page
 //TODO: make a utility function that knows how to read and write to the db.json file
