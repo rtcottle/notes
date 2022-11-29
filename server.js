@@ -16,8 +16,8 @@ app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );
 
-//TODO: make a routes folder with an HTML and Notes section -- these know how to connect with each page
-//TODO: make a utility function that knows how to read and write to the db.json file
-//TODO: make utils folder and connect it with the routes sections
+//TODO: get notes to show up as buttons, pull from past data
+//TODO: get data to make file - add to current JSON file
 //TODO: make the delete function work
-//TODO: READFROMFILE AND WRITETOFILE are not functions that exist here.
+
+// link to npm package: https://www.npmjs.com/package/json-file-plus
