@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 // GET routes for notes page
 router.get("/", (req, res) => {
-  readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
+  readFromFile(".././db/db.json").then((data) => res.json(JSON.parse(data)));
 });
 
 // POST Route for a new note

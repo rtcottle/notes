@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const routes = require("./routes");
 
 const PORT = 3001;
@@ -19,4 +20,4 @@ app.listen(PORT, () =>
 //TODO: make a utility function that knows how to read and write to the db.json file
 //TODO: make utils folder and connect it with the routes sections
 //TODO: make the delete function work
-//TODO:
+//TODO: READFROMFILE AND WRITETOFILE are not functions that exist here.

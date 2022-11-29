@@ -10,9 +10,9 @@ router.get("/", (req, res) =>
 );
 
 // GET Route for notes page
-router.get("/notes", (req, res) =>
-  res.sendFile(path.join(__dirname, "./public/notes.html"))
-);
+router.get("/notes", (req, res) => {
+  res.sendFile(path.join(__dirname, "../public/notes.html"));
+});
 
 router.use("/api/home", html);
 router.use("/api/notes", notes);
