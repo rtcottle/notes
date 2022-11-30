@@ -28,6 +28,21 @@ router.post("/", (req, res) => {
   }
 });
 
-// PUT route to update notes
+// DELETE route to delete notes
+router.delete("/:id", (req, res) => {
+  console.log(req.params);
+  const { id } = req.params;
+  console.info(`${req.method} request received to get notes`);
+  readFromFile("./db/db.json").then((data) => {
+    const notes = JSON.parse(data);
+    const result = notes.filter((note) => note.note_id != id);
+    console.log(result);
+    //TODO: work on this. Should be a similar pattern to the readAndAppend to make a new file.
+    // readAndAppend(newNote, "./db/db.json");
+    console.log(newNote);
+    // res.end()
+    // TODO: what is the client expecting back from server? Look at the front end stuff to determine this.
+  });
+});
 
 module.exports = router;
