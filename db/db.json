@@ -1,15 +1,5 @@
 [
     {
-        "title": "Note",
-        "text": "note",
-        "note_id": "6a63"
-    },
-    {
-        "title": "asdf",
-        "text": "asdf",
-        "note_id": "449d"
-    },
-    {
         "title": "asdf",
         "text": "asdf",
         "note_id": "8f3b"
@@ -18,5 +8,15 @@
         "title": "ASDFA",
         "text": "ASDF",
         "note_id": "a6c5"
+    },
+    {
+        "title": "Blah",
+        "text": "blah",
+        "note_id": "367b"
+    },
+    {
+        "title": "Shopping List",
+        "text": "bananas",
+        "note_id": "b4bf"
     }
 ]
