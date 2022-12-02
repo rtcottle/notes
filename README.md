@@ -28,7 +28,7 @@ Take notes that will save as files on your computer
 
 Link to repo: https://github.com/rtcottle/notes
 
-Link to app:
+Link to app: https://notes-taker-json-app.herokuapp.com/
 
 ![Screenshot](screenshot.png)
 
