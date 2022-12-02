@@ -26,6 +26,10 @@ Express is required to run this program
 
 Take notes that will save as files on your computer
 
+![Screenshot](screenshot.png)
+
+Link to repo: https://github.com/rtcottle/notes
+
 ## Credits
 
 Gitignore: https://gist.github.com/lohenyumnam/2b127b9c3d1435dc12a33613c44e6308
